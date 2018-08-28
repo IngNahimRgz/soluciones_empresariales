@@ -246,6 +246,7 @@ i:before {
   color: #2bc0a4;
 }
 
+
 @media (min-width: 992px) {
   .main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu {
     -webkit-transition: all 300ms ease-out;
@@ -269,7 +270,7 @@ i:before {
   }
 }
 
-.main_menu_area .navbar .navbar-nav li.submenu .dropdown-menu li {
+.main_menu_area  .navbar .navbar-nav li.submenu .dropdown-menu li {
   display: block;
   margin-right: 0px;
 }
@@ -1008,7 +1009,7 @@ i:before {
 /* Our Service Area css
 ============================================================================================ */
 .service_area {
-  background: url(../img/service-bg.jpg) no-repeat fixed center center;
+  background: url(../img/static-1.jpg) no-repeat fixed center center;
   background-size: cover;
   position: relative;
   z-index: 2;
