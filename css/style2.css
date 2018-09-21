@@ -32,6 +32,26 @@ Table of Content:
 12/ footer 
 =====================================================================*/
 /*----------------------------------------------------*/
+.verif{ display: none; }
+
+ul .dropdown-menu {
+    
+    background-color: black;
+    opacity: .8
+}
+.icon-small
+{
+    height:18px;
+    margin:0;
+	padding:0;
+}
+
+.icon-medium
+{
+    height:22px;
+	margin:0;
+	padding:0;
+}
 /*font Variables*/
 /*Color Variables*/
 @import url("https://fonts.googleapis.com/css?family=Playfair+Display|Poppins:300,400,500,600,700,800,900");
@@ -719,7 +739,7 @@ i:before {
 /* Our Service Area css
 ============================================================================================ */
 .service_area {
-  background: url(../img/service-bg.jpg) no-repeat fixed center center;
+  background: url(../img/clientes/Nuestros%20servicios.jpg) no-repeat fixed center center;
   background-size: cover;
   position: relative;
   z-index: 2;

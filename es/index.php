@@ -7,7 +7,7 @@
         <meta name="description" content="Soluciones Empresariales BS">
 
 
-        <link rel="icon" href="../img/logo_sin_letras.png" type="image/x-icon" />
+        <!--        <link rel="icon" href="../img/logo_sin_letras.png" type="image/x-icon" />-->
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
         <title>Soluciones Empresariales</title>
 
@@ -68,11 +68,24 @@
 
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" class="nav-link" href="#clientes">Clientes</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" class="nav-link" href="#contacto">Contacto</a></li>
+
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false"><img id="imgNavSel" src="" alt="..." class="img-thumbnail icon-small">  <span id="lanNavSel">MX</span> <span class="caret"></span></a>
+                            <ul class="dropdown-menu" role="menu">
+                                <li><a id="navIta" href="#" class="language"> <img id="imgNavIta" src="" alt="..." class="img-thumbnail icon-small">  <span id="lanNavIta">Español</span></a></li>
+                                <li><a id="navDeu" href="#" class="language"> <img id="imgNavDeu" src="" alt="..." class="img-thumbnail icon-small">  <span id="lanNavDeu">Deutsch</span></a></li>
+                                <li><a id="navFra" href="#" class="language"><img id="imgNavFra" src="" alt="..." class="img-thumbnail icon-small">  <span id="lanNavFra">Francais</span></a></li>
+                                <li><a id="navEng" href="#" class="language"><img id="imgNavEng" src="" alt="..." class="img-thumbnail icon-small">  <span id="lanNavEng">English</span></a></li>
+                            </ul>
+                        </li>
+                        <!--                        <li><a href="https://www.facebook.com/Solucionesempresarialesbs"><i class="fa fa-facebook "></i></a></li>-->
+
                     </ul>
                     <ul class="navbar-nav justify-content-end">
-                        <li><a href="https://www.facebook.com/Solucionesempresarialesbs"><i class="fa fa-facebook "></i></a></li>
+
                         <!-- <li><a href="#"><i class="icon_bag_alt"></i></a></li>-->
                     </ul>
+
                 </div>
             </nav>
         </header>
@@ -84,7 +97,7 @@
                 <ul>
                     <li data-index="rs-2946" data-transition="slidevertical" data-slotamount="1" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="../img/comunicacion_datos_y_redes_grande.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="../img/clientes/Portada.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYER NR. 1 -->
                         <div class="slider_text_box">
 
@@ -128,7 +141,7 @@
                     </li>
                     <li data-index="rs-2947" data-transition="slidevertical" data-slotamount="1" data-hideafterloop="0" data-hideslideonmobile="off"  data-easein="default" data-easeout="default" data-masterspeed="1000"  data-rotate="0"  data-fstransition="fade" data-fsmasterspeed="1500" data-fsslotamount="7" data-saveperformance="off"  data-title="Intro" data-param1="" data-param2="" data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8="" data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="../img/comunicacion_datos_y_redes_grande.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
+                        <img src="../img/clientes/Portada.jpg"  alt=""  data-bgposition="center center" data-bgfit="cover" data-bgrepeat="no-repeat" class="rev-slidebg" data-no-retina>
                         <!-- LAYER NR. 1 -->
                         <div class="slider_text_box">
                             <div class="tp-caption tp-resizeme secand_text"
@@ -162,8 +175,8 @@
                                  data-responsive_offset="on"
                                  data-frames="[{&quot;delay&quot;:10,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;0&quot;,&quot;from&quot;:&quot;y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;&quot;,&quot;mask&quot;:&quot;x:0px;y:[100%];s:inherit;e:inherit;&quot;,&quot;to&quot;:&quot;o:1;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;},{&quot;delay&quot;:&quot;wait&quot;,&quot;speed&quot;:1500,&quot;frame&quot;:&quot;999&quot;,&quot;to&quot;:&quot;y:[175%];&quot;,&quot;mask&quot;:&quot;x:inherit;y:inherit;s:inherit;e:inherit;&quot;,&quot;ease&quot;:&quot;Power2.easeInOut&quot;}]"
                                  data-textAlign="['center','center','center','center','center','center']">
-                                <a class="bg_btn" href="#">¿Quiénes somos? </a>
-                                <a class="tp_btn" href="#">Get a quote</a>
+                                <a class="bg_btn" href="#servicios">Nuestros Servicios </a>
+                                <a class="tp_btn" href="#">Contacto</a>
                             </div>
                         </div>
                     </li>
@@ -180,13 +193,13 @@
                         <div class="col-lg-4">
                             <div class="c_box_item">
                                 <a ><h4><i class="fa fa-star" aria-hidden="true"></i> Misión  </h4></a>
-                                <p>Generar satisfacción a las empresas que ofrecen empleo, acercándoles el talento humano que necesitan para continuar su desarrollo y así mismo ofrecer alguna alternativa a quien está en búsqueda de trabajo </p>
+                                <p>Brindar a las empresas personal adecuado para cubrir sus necesidades en reclutamiento y selección, con un sistema avanzado en tecnología en cualquier lugar del planeta, así como la capacitación de su personal en el área deseada. </p>
                             </div>
                         </div>
                         <div class="col-lg-4">
                             <div class="c_box_item">
                                 <a ><h4><i class="fa fa-star" aria-hidden="true"></i> Visión </h4></a>
-                                <p>Ser referentes en el país de satisfacción a quienes nos confían su búsqueda de talento y a las personas que necesitan de empleo. </p>
+                                <p>Ser referentes en el país y fuera de él, de satisfacción a quienes nos confían su búsqueda de talento, o la capacitación del mismo. </p>
                             </div>
                         </div>
                         <div class="col-lg-4">
@@ -206,15 +219,14 @@
                                 <div class="main_title">
                                     <h2>¿Quiénes somos?</h2>
                                 </div>
-                                <p >Soluciones empresariales BS somos una empresa con más de 20 años en el mercado, establecida en la ciudad de Chihuahua, nos desempeñamos en todo el país. <br>
-                                    En particular para el área de reclutamiento tenemos claro el proceso de atraer individuos oportunamente, en suficiente número y con los debidos atributos para su organización.   </p>
+                                <p >Soluciones empresariales BS es una empresa con larga trayectoria y con una nueva historia. Desde la ciudad de Chihuahua nos desempeñaos para todo el país y el extranjero, somos especialistas incorporando excelente talento y capacitándolo a todos niveles para exitosas compañías.   </p>
                                 <a class="read_btn portfolio-link mx-auto" data-toggle="modal" href="#portfolioModal1">Leer más</a>
-                               
+
                             </div>
                         </div>
                         <div class="col-lg-6">
                             <div class="d_feature_img">
-                                <img src="../img/feature-right.jpg" alt="">
+                                <img src="../img/clientes/quienes_somos.jpg" alt="">
                             </div>
                         </div>
                     </div>
@@ -223,35 +235,35 @@
         </section>
         <!--================End Creative Feature Area =================-->
 
-       
+
         <!--================Our Service Area =================-->
         <section id="servicios" class="service_area">
             <div class="container">
                 <div class="center_title">
                     <h2>Nuestros Servicios</h2>
-                    <p>Nos ponemos a su disposición para ayudar en su proceso de selección, ocupándonos de la parte en la que usted invertirá mucho tiempo y esfuerzo lo cual genera más costo, nosotros con gusto trabajamos en esto hasta dejar en sus manos el candidato para su selección. </p>
+                    <p>Nos ponemos a su disposición para ayudar en su proceso de selección, ocupándonos de la parte en la que usted invertirá mucho tiempo y esfuerzo lo cual genera más costo, nosotros con gusto trabajamos en esto hasta dejar en sus manos el candidato para su selección.</p>
                 </div>
                 <div class="row service_item_inner">
                     <div class="col-lg-4">
                         <div class="service_item">
                             <i class="fa fa-users"></i>
                             <h4>Reclutamiento</h4>
-                            <p>Por medio de entrevistas, exámenes psicométricos, estudios socioeconómicos, estrategias preventivas y proactivas; atraemos candidatos calificados para cubrir los puestos requeridos desde operadores hasta puestos gerenciales.
-</p>
+                            <p>Tenemos claro el proceso de atraer individuos oportunamente, en suficiente número y con los debidos atributos de acuerdo a las necesidades especificas de cada empresa, para lo cual utilizamos el reclutamiento 3.0 Mobile Recruiting.
+                            </p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="service_item">
                             <i class=" fa fa-user"></i>
                             <h4>Selección</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Obcaecati nostrum, ab expedita excepturi, molestiae quasi labore officia aut eveniet ratione aperiam. Quidem eos temporibus ipsa quasi atque sint debitis aliquam.</p>
+                            <p>Por medio de entrevistas, exámenes psicométricos, estudios socioeconómicos, estrategias preventivas y proactivas; atraemos candidatos calificados para cubrir los puestos requeridos desde operadores hasta puestos gerenciales.</p>
                         </div>
                     </div>
                     <div class="col-lg-4">
                         <div class="service_item">
                             <i class="fa fa-graduation-cap"></i>
                             <h4>Capacitación</h4>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur impedit odio assumenda iusto. Omnis, impedit dolorum, magni obcaecati cum provident necessitatibus expedita, eius aliquam quos perferendis, rem illum perspiciatis ab..</p>
+                            <p>Nos ocupamos de actividades didácticas, dirigidas a ampliar los conocimientos, habilidades, desempeños y aptitudes del personal que labora en su empresa.</p>
                         </div>
                     </div>
                 </div>
@@ -263,7 +275,7 @@
         <section id="clientes" class="industries_area">
             <div class="left_indus">
                 <div class="indus_img">
-                    <img src="../img/indus-laptop.png" alt="">
+                    <img src="../img/clientes/nuestros%20clientes.jpg" alt="">
                 </div>
             </div>
             <div class="right_indus">
@@ -272,13 +284,50 @@
                         <h2> 
                             Nuestros Clientes
                         </h2>
-                        <p> <strong>SOLUCIONES EMPRESARIALES BS</strong> ha adquirido una importante experiencia, en sectores en los que ha basado su actividad de reclutamiento, entre ellos se euentran: <br> <br> •	Agencias Automotrices <br>•	Comerciales <br>•	Restaurantes <br>•	Seguridad
+                        <p> <strong>SOLUCIONES EMPRESARIALES BS</strong> hha tomado su amplia experiencia en los sectores en que ha desempeñado su actividad, tales como: <br> <br> •	Agencias Automotrices <br>•	Arrendadoras de autos <br>•	Industria aeroespacial <br>•	Institutos educativos <br>•	Restaurantera 
                         </p>
                     </div>
 
                     <a class="read_btn js-scroll-trigger mx-auto"  href="#contacto">Contacto</a>
                 </div>
             </div>
+
+        </section>
+        <section class="testimoniasl_area">
+            <div class="container-fluid mt-4 center-indus">
+                <div class="row mb-2">
+                    <div class="col-sm-4 mx-auto text-center">
+                        <img src="../img/clientes/carshop.png" alt="">
+                    </div>
+                    <div class="col-sm-4 align-middle mx-auto text-center">
+                        <img src="../img/clientes/skyspace.png" alt="" class="align-middle mx-auto" style="max-height: 150px">
+                    </div>
+                    <div class="col-sm-4 mx-auto text-center">
+                        <img src="../img/clientes/firefly.png" alt="" style="max-height: 150px">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-sm-4 mx-auto text-center">
+                        <img src="../img/clientes/grupo%20hema.png" alt="">
+                    </div>
+                    <div class="col-sm-4 mx-auto text-center mb-5">
+                        <img src="../img/clientes/hertz.png" alt="" class="align-middle mx-auto" style="max-height: 150px">
+                    </div>
+                    <div class="col-sm-4 mx-auto text-center">
+                        <img src="../img/clientes/nissan.jpg" alt="" style="max-height: 150px">
+                    </div>
+                </div>
+                <div class="row mb-2">
+                    <div class="col-sm-6 mx-auto text-center">
+                        <img src="../img/clientes/logo-china.png" alt="">
+                    </div>
+                    <div class="col-sm-6 mx-auto text-center">
+                        <img src="../img/clientes/colegio%20china.png" alt="" class="align-middle mx-auto" style="max-height: 150px">
+                    </div>
+
+                </div>
+            </div>
+
         </section>
         <!--================End Industries Area =================-->
 
@@ -327,7 +376,7 @@
             <div class="container" >
                 <div class="row">
                     <div class="col-lg-12 ">
-                        <img class="img-fluid mx-auto d-block" src="img/logo_sin_letras.png" style="width: 20%"  alt="">
+                        <img class="img-fluid mx-auto d-block" src="../img/logo_sin_letras.png" style="width: 20%"  alt="">
                     </div>
                 </div>
                 <div class="row">
@@ -358,7 +407,7 @@
                                 <h4 class="text-uppercase m-2">Email</h4>
                                 <hr class="my-4">
                                 <div class=" text-black-50 ">
-                                    <a href="mailto:g.cazares@soluciones-c.com">g.cazares@soluciones-c.com</a>
+
                                     <a href="mailto:d.castillo@soluciones-c.com">d.castillo@soluciones-c.com</a>
                                 </div>
                             </div>
@@ -376,8 +425,7 @@
 
                                 <h4 class="text-uppercase m-3">Telefono </h4>
                                 <hr class="my-4" >
-                                <div class=" text-black-50">+52 614 410 5050 
-</div>
+                                <div class=" text-black-50">+52 614 385 1466 </div>
                             </div>
                         </div>
                     </div>
@@ -433,9 +481,61 @@
 
         <!--================Section Contac =================-->
         <!-- Contact -->
-        <section >
+        <section class="mb-5">
             <div class="container">
+                <div class="contact_details_inner">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="contact_text">
+                                <div class="main_title">
+                                    <h2>Dejanos tus datos</h2>
+                                    <p>Puedes llenar el siguiente formulario para que nosotros nos comuniquemos contigo!</p>
+                                </div>
 
+                                <div class="static_social">
+                                    <div class="main_title">
+                                        <h2>Siguenos en nuestras redes sociales:</h2>
+                                    </div>
+                                    <ul>
+                                        <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                                        <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="contact_form">
+                                <div class="main_title">
+                                    <h2>Get In Touch With Us!</h2>
+                                    <p>Fill out the form below to recieve a free and confidential.</p>
+                                </div>
+<!--                                <form class="contact_us_form row" action="" method="post" id="contactForm" novalidate="novalidate">-->
+                                  
+                                   <form class="contact_us_form row" action="#" method="post" id="contactForm" novalidate="novalidate">
+                                    <div class="form-group col-lg-12">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Name">
+                                    </div>
+                                    <div class="form-group col-lg-12">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Email">
+                                    </div>
+                                    <div class="form-group col-lg-12">
+                                        <input type="text" class="form-control" id="phone" name="phone" placeholder="Teléfono">
+                                    </div>
+                                    <div class="form-group col-lg-12">
+                                        <textarea class="form-control" name="message" id="message" rows="1" placeholder="Message"></textarea>
+                                    </div>
+                                    <div class="form-group col-md-12">
+                                        <button type="submit" value="submit" class="btn submit_btn2 form-control disabled">Send Messages</button>
+                                    </div>
+                                    <label for="verificacion" class="verif">¡Si ves esto, no llenes el siguiente campo!</label>
+                                    <input name="verificacion" class="verif" />
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
         <!--================End Section Contac =================-->
@@ -445,72 +545,72 @@
         <!--================Footer Area =================-->
         <footer class="footer_area">
             <!-- <div class="footer_widgets_area">
-                <div class="container">
-                    <div class="f_widgets_inner row">
-                        <div class="col-lg-3 col-md-6">
-                            <aside class="f_widget subscribe_widget">
-                                <div class="f_w_title">
-                                    <h3>Our Newsletter</h3>
-                                </div>
-                                <p>Subscribe to our mailing list to get the updates to your email inbox.</p>
-                                <div class="input-group">
-                                    <input type="email" class="form-control" placeholder="E-mail" aria-label="E-mail">
-                                    <span class="input-group-btn">
-                                        <button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
-                                    </span>
-                                </div>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <aside class="f_widget twitter_widget">
-                                <div class="f_w_title">
-                                    <h3>Twitter Feed</h3>
-                                </div>
-                                <div class="tweets_feed"></div>
-                            </aside>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <aside class="f_widget categories_widget">
-                                <div class="f_w_title">
-                                    <h3>Link Categories</h3>
-                                </div>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Agency</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Studio</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Studio</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Blogs</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Shop</a></li>
-                                </ul>
-                                <ul>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Home</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>About</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Services</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Work</a></li>
-                                    <li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Privacy</a></li>
-                                </ul>
-                            </aside>
-                        </div>
-                        <div class="col-lg-3 col-md-6">
-                            <aside class="f_widget contact_widget">
-                                <div class="f_w_title">
-                                    <h3>Contact Us</h3>
-                                </div>
-                                <a href="#">1 (800) 686-6688</a>
-                                <a href="#">info.deercreative@gmail.com</a>
-                                <p>40 Baria Sreet 133/2 <br />NewYork City, US</p>
-                                <h6>Open hours: 8.00-18.00 Mon-Fri</h6>
-                            </aside>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
+<div class="container">
+<div class="f_widgets_inner row">
+<div class="col-lg-3 col-md-6">
+<aside class="f_widget subscribe_widget">
+<div class="f_w_title">
+<h3>Our Newsletter</h3>
+</div>
+<p>Subscribe to our mailing list to get the updates to your email inbox.</p>
+<div class="input-group">
+<input type="email" class="form-control" placeholder="E-mail" aria-label="E-mail">
+<span class="input-group-btn">
+<button class="btn btn-secondary submit_btn" type="button">Subscribe</button>
+</span>
+</div>
+<ul>
+<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+<li><a href="#"><i class="fa fa-google-plus"></i></a></li>
+<li><a href="#"><i class="fa fa-instagram"></i></a></li>
+<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+</ul>
+</aside>
+</div>
+<div class="col-lg-3 col-md-6">
+<aside class="f_widget twitter_widget">
+<div class="f_w_title">
+<h3>Twitter Feed</h3>
+</div>
+<div class="tweets_feed"></div>
+</aside>
+</div>
+<div class="col-lg-3 col-md-6">
+<aside class="f_widget categories_widget">
+<div class="f_w_title">
+<h3>Link Categories</h3>
+</div>
+<ul>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Agency</a></li>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Studio</a></li>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Studio</a></li>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Blogs</a></li>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Shop</a></li>
+</ul>
+<ul>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Home</a></li>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>About</a></li>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Services</a></li>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Work</a></li>
+<li><a href="#"><i class="fa fa-angle-double-right" aria-hidden="true"></i>Privacy</a></li>
+</ul>
+</aside>
+</div>
+<div class="col-lg-3 col-md-6">
+<aside class="f_widget contact_widget">
+<div class="f_w_title">
+<h3>Contact Us</h3>
+</div>
+<a href="#">1 (800) 686-6688</a>
+<a href="#">info.deercreative@gmail.com</a>
+<p>40 Baria Sreet 133/2 <br />NewYork City, US</p>
+<h6>Open hours: 8.00-18.00 Mon-Fri</h6>
+</aside>
+</div>
+</div>
+</div>
+</div> -->
             <div class="copy_right_area">
                 <div class="container">
                     <div class="float-md-left">
@@ -570,6 +670,9 @@
 
 
 
+
+
+
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="../js/jquery-3.2.1.min.js"></script>
         <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -591,9 +694,7 @@
         <script src="../vendors/counterup/countto.js"></script>
         <script src="../vendors/owl-carousel/owl.carousel.min.js"></script>
         <script src="../vendors/parallaxer/jquery.parallax-1.1.3.js"></script>
-        <!--Tweets-->
-        <script src="../vendors/tweet/tweetie.min.js"></script>
-        <script src="../vendors/tweet/script.js"></script>
+
 
         <script src="../js/theme.js"></script>
         <!-- Plugin JavaScript -->
@@ -603,5 +704,7 @@
 
         <!-- Custom scripts for this template -->
         <script src="../js/agency.js"></script>
+        <script src="../js/idiomas.js"></script>
+
     </body>
 </html>
