@@ -177,6 +177,7 @@ i:before {
     color: #fff; }
 
 .main_menu_area {
+    background: #0000008a
   position: absolute;
   width: 100%;
   top: 0px;
@@ -186,7 +187,7 @@ i:before {
   border-bottom: 1px solid #626571; }
   .main_menu_area .navbar {
     padding: 0px;
-    background-color: transparent !important; }
+    background-color: transparent!important; }
     .main_menu_area .navbar .navbar-collapse {
       text-align: right; }
       @media (min-width: 992px) {
